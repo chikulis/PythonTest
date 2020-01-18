@@ -1,7 +1,9 @@
 import requests
 from pyquery import PyQuery
-from MysqlClient import MysqlClient
+from MysqlClient import MSsqlClient
 from VerifyProxy import VerifyProxy
+
+
 # 
 class CrawProxy(object):
     def __init__(self):
